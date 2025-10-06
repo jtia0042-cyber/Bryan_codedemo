@@ -1,0 +1,42 @@
+************************************************************
+               My Details:
+Name: Jiaming Tian
+ID: 35708557
+Lab: Thursday
+Trimester: 2
+Teacher: Haidar AL-Khalidi
+************************************************************
+************************************************************
+         Rules for Playing Memory Match Card Game
+************************************************************
+ChatGPT Link:https://chatgpt.com/share/68c28521-ae58-800d-bf26-3897707c7b2c
+
+RULES + How to Play the game
+Objective:
+Score the most points by finding and matching pairs of cards.
+
+Setup:
+Use cards numbered 1 to 100 (two of each number, 200 cards total).
+Shuffle and place them face down in rows.
+
+Gameplay:
+Players take turns in clockwise order.
+On your turn, you may:
+Flip two cards:
+If the numbers match → you score +10 points and keep the pair. You may take another turn.
+If they don’t match → you lose -5 points. The cards are flipped back face down. Turn ends.
+Pass your turn:
+You score -2 points.
+Scoring:
+Match = +10 points
+Mismatch = -5 points
+Pass = -2 points
+Keep a written score tally.
+Winning:
+The game ends when all pairs are matched.
+The winner is the player with the highest total points.
+If scores tie, the player with the most pairs matched wins.
+
+Tips:
+Remember the position of revealed cards.
+Passing strategically can sometimes prevent bigger losses.

@@ -1,0 +1,24 @@
+-------------------------------------------------
+Your Details:
+Name: Jiaming Tian
+ID: 35708557
+Lab: Thursday
+Trimester: 2
+Teacher: Haidar AL-Khalidi
+-------------------------------------------------
+The reflection report
+During the development of the Memory Match Card game, I adopted an object-oriented design approach and divided the program into three classes: Application, Card, and Player.
+The Application class manages the overall game flow (menu, shuffling, turn management, and winner determination);
+the Card class represents a single card, containing attributes such as label, whether it is flipped, and whether it has been matched;
+the Player class stores the player’s name and score.
+This clear separation of responsibilities distinguishes the roles of each class, and through composition and method calls, the classes interact with one another, which reflects the principles of the object-oriented (OO) approach.
+During the implementation, I encountered several challenges. First, when generating cards, I was unable to create proper pairs, which caused errors in the matching rules. I later solved this by generating each card twice and then shuffling the deck. Second, in the user interface, the initial version only displayed “X”. In the final revision, I designed the card labels as random numbers from 1 to 100, which improved the playability of the game. Lastly, in the scoring system, my early approach used separate branches to add or deduct points for each player, which led to redundant code. Eventually, I resolved this by using the manageScores() function to unify the scoring logic. These issues were gradually fixed through debugging and refactoring, which helped me realize the gap between design and implementation. Overall, I was able to successfully translate my design into functional code.
+If I had the opportunity to redo this project, I would add a dedicated GameManager class responsible for timing and hint features, making the Application class cleaner and the overall class structure clearer. I would also consider using ASCII art or a more user-friendly layout to further enhance the user experience.
+-------------------------------------------------
+
+The extra functionality(s)
+Custom Board Size (b): I allowed the player to set the number of rows and columns for the grid instead of being restricted to a fixed 4x4 board. This gives players more flexibility and makes the game replayable at different difficulty levels.
+Game Timer (f): I added a timer to record the total duration of the game as well as the time taken for each turn. This feature increases competitiveness and provides players with feedback on their efficiency.
+Hint Feature (g): I implemented a one-time hint option that reveals all unmatched cards temporarily before flipping them back. This gives players strategic assistance while still limiting its use to maintain fairness.
+Penalty System (h): I applied a scoring penalty where a player loses 2 points for passing a turn and 5 points for selecting two cards that do not match. This adds more challenge and encourages players to think carefully before making choices.
+-------------------------------------------------
