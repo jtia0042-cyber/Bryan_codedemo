@@ -272,3 +272,4 @@ class HardwareTicket(SupportTicket):
 
     def set_hardware_name(self, new_hardware_name):
         self.hardware_name = new_hardware_name
+
