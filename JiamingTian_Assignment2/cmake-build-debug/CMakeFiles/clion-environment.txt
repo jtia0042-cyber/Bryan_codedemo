@@ -1,5 +1,0 @@
-ToolSet: 11.0 w64 (local)@D:\Monash\MCD4720C++\CLion 2025.1.3\bin\mingw
-Ninja: 1.12.1@D:\Monash\MCD4720C++\CLion 2025.1.3\bin\ninja\win\x64\ninja.exe
-Options: 
-
-Options:-DCMAKE_MAKE_PROGRAM=D:/Monash/MCD4720C++/CLion 2025.1.3/bin/ninja/win/x64/ninja.exe
